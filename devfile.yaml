@@ -31,6 +31,10 @@ components:
       # replicate the GOCACHE from the plugin, even though the cache is not shared
       # between the two
       value: /tmp/.cache
+    - name: ODO_COMMAND_RUN
+      value: "run outyet"
+    - name: CHE_PROJECTS_ROOT
+      value: /projects
   endpoints:
     - name: '8080/tcp'
       port: 8080
